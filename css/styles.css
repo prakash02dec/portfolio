@@ -147,7 +147,7 @@ a {
   position: absolute;
   width: 147px;
   left: 1608px;
-  top: 14px;
+  top: 12px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -218,7 +218,14 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.p-logo{
+  position: relative;
+  left: 900px;
+  width: 38px;
+  height: 40px;
+  margin: 9px auto;
 
+}
 /**********************************************second page*********************************/
 
 .middle-container {
