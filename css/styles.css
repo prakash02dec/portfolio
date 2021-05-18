@@ -10,22 +10,18 @@ a {
 }
 .top-container {
   position: relative;
-  /* width: 1920px;
-    height: 1080px;
-     */
-  padding: 1020px 0px 0px;
-  background: #d7d7d7;
-
-  position: relative;
+  width: 1920px;
+  height: 1080px;
+  padding-right: 0px 20px 200px auto;
   background: url(../images/background1.jpg);
+  mix-blend-mode: normal;
   background-repeat: no-repeat;
-  /* width: 1920px;;
-    height: 1080px; */
-  padding: 1020px 0px 0px;
+  /* background-size: auto; */
+  margin: 0;
 }
 .navigation-bar {
   position: absolute;
-  width: 1900px;
+  width: 1920px;
   height: 62px;
   left: 0px;
   top: 20px;
@@ -729,6 +725,7 @@ a {
 }
 
 .footer {
+  width: 1920px;
   margin-top: 10px;
   background-color: #000000;
   padding: 40px 0px 20px;
