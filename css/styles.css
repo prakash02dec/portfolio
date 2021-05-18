@@ -17,15 +17,15 @@ a {
   mix-blend-mode: normal;
   background-repeat: no-repeat;
   /* background-size: auto; */
-  margin: 0;
+  margin: -64px 0px 0px 0px;
 }
 .navigation-bar {
-  position: absolute;
+  position: sticky;
   width: 1920px;
   height: 62px;
   left: 0px;
   top: 20px;
-
+  z-index: 4;
   background: #5a5c5f;
 }
 .pic {
@@ -150,7 +150,7 @@ a {
   top: 14px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   display: inline-block;
@@ -202,7 +202,22 @@ a {
   text-align: center;
   color: #ffffff;
 }
+.home {
+  position: absolute;
+  width: 147px;
+  left: 1108px;
+  top: 20px;
 
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 21px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
 
 /**********************************************second page*********************************/
 
@@ -634,7 +649,7 @@ a {
   width: 800px;
   height: 137px;
   left: 560px;
-  top: 150px;
+  top: 160px;
 
   font-family: Raleway;
   font-style: normal;
@@ -720,7 +735,7 @@ a {
   position: absolute;
   width: 197px;
   height: 45px;
-  margin-top: 40px;
+  margin-top: 60px;
   left: 200px;
   padding-left: 60px;
   font-family: Montserrat;
