@@ -96,6 +96,9 @@ a {
   background: #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.codechef:hover{
+  background: #aaaaaa;
+}
 .codechef-icon {
   position: relative;
   width: 44px;
@@ -112,6 +115,9 @@ a {
   background: #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.github:hover{
+  background: #aaaaaa;
+}
 .github-icon {
   position: relative;
   width: 44px;
@@ -127,6 +133,9 @@ a {
 
   background: #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.linkedin:hover{
+  background: #aaaaaa;
 }
 .linkedin-icon {
   position: relative;
@@ -624,15 +633,15 @@ a {
   left: 560px;
   top: 150px;
 
-  font-family: Montserrat;
+  font-family: Raleway;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 24px;
   line-height: 138.68%;
-  /* or 33px */
-  text-align: justify;
+  /* or 39px */
 
   color: #000000;
+  text-align: justify;
 }
 
 .form {
@@ -661,6 +670,7 @@ a {
   border: none;
   border-bottom: solid black;
   border-left: solid black;
+  border-width: 0.30rem;
 }
 .your-email {
   margin-top: 40px;
@@ -680,6 +690,7 @@ a {
   border: none;
   border-bottom: solid black;
   border-left: solid black;
+  border-width: 0.30rem;
 }
 .your-message {
   margin-top: 40px;
@@ -699,6 +710,7 @@ a {
   border: none;
   border-bottom: solid black;
   border-left: solid black;
+  border-width: 0.30rem;
 }
 
 .submit {
@@ -722,6 +734,7 @@ a {
   border: none;
   border-right: solid black;
   border-left: solid black;
+  border-width: 0.30rem;
 }
 
 .footer {
