@@ -10,17 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    
+    <script src="scripts/main.js"></script>
+
 </head>
 
 <body>
-    <div class="top-container">
-        <div class="navigation-bar">
-            <a class="about-me icon" href="">About me</a>
-            <a class="skill icon" href="">Skills</a>
-            <a class="contact icon" href="">CONTACT ME</a>
-        </div>
-        <img class="pic" src="images/pic.jpg" alt="pic" />
+    <div class="navigation-bar">
+        <a class="home icon" href="#link-home">Home</a>
+        <a class="about-me icon" href="#link-about">About me</a>
+        <a class="skill icon" href="#link-skills">Skills</a>
+        <a class="contact icon" href="#link-contact">CONTACT ME</a>
+    </div>
+
+    <div class="top-container" id="link-home">
+        <img class="pic" src="images/pic.jpg" alt="pic">
         <h2 class="hi">Hi, I am</h2>
         <h1 class="name">Prakash agarwal</h1>
         <h2 class="a-programmer">a programmer</h2>
@@ -43,8 +46,8 @@
         </div>
     </div>
     <div class="middle-container">
-        <div class="intro">
-            <h2 class="aboutme">ABOUT ME</h2>
+        <div class="intro" id="link-about">
+            <h2 class="aboutme" >ABOUT ME</h2>
             <p class="intro-disc">
                 Hello! Hello! My name is Prakash Agarwal. I’m a currently studying
                 computer science and engineering in the Indian Institute of
@@ -58,9 +61,10 @@
             <img class="hr-icon1" src="images/hr.png" alt="hr-icon1" />
         </div>
         <div class="skill-block">
-            <h2 class="skills">SKILLS</h2>
+            <h2 class="skills" id="link-skills">SKILLS</h2>
             <div>
                 <h3 class="using-now">USING NOW</h3>
+
                 <div>
                     <img class="icon-c icon" src="images/c.png" alt="c" />
                     <span class="c">C</span>
@@ -97,6 +101,7 @@
                     <span class="flutter">FLUTTER</span>
                 </div>
             </div>
+            
             <div>
                 <h3 class="other-skills">OTHER SKILLS</h3>
                 <div>
@@ -104,13 +109,14 @@
                     <span class="figma">FIGMA</span>
                 </div>
             </div>
-            <div>
-                <img class="hr-icon2" src="images/hr.png" alt="hr-icon2" />
-            </div>
+
+        </div>
+        <div>
+            <img class="hr-icon2" src="images/hr.png" alt="hr-icon2" />
         </div>
     </div>
     <div class="bottom-container">
-        <div class="contact-page">
+        <div class="contact-page" id="link-contact">
             <div>
                 <h2 class="contact-box">CONTACT</h2>
                 <p class="message">I’D LOVE TO HEAR FROM YOU. IF YOU’D LIKE AN INFORMATION ABOUT WORKING WITH ME, PLEASE
@@ -128,13 +134,16 @@
         </div>
         <div class="footer">
             <div>
-                <img src="images/double-arrow.png" alt="">
-                <p class="top">BACK TO TOP</p>
+                <a href="#link-home"><img src="images/double-arrow.png" alt="">
+                <p class="top">BACK TO TOP</p></a>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/prakash-agarwal-242087148/"><img class="icon" src="images/linked.png" alt=""></a>
-                <a class="footer-link" href="https://twitter.com/"><img class="icon" src="images/twitter.png" alt=""></a>
-                <a class="footer-link" href="mailto:prakash02dec@gmail.com"><img class="icon" src="images/mail.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/prakash-agarwal-242087148/"><img class="icon"
+                        src="images/linked.png" alt=""></a>
+                <a class="footer-link" href="https://twitter.com/"><img class="icon" src="images/twitter.png"
+                        alt=""></a>
+                <a class="footer-link" href="mailto:prakash02dec@gmail.com"><img class="icon" src="images/mail.png"
+                        alt=""></a>
             </div>
             <p class="copyright-message">©2021 Prakash Agarwal All Rights Reserved.</p>
 
